@@ -1,4 +1,7 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import Form from './components/Form';
+
 import Homepage from './pages/Homepage';
 import Product from './pages/Product';
 import Pricing from './pages/Pricing';
@@ -6,7 +9,8 @@ import PageNotFound from './pages/PageNotFound';
 import AppLayout from './pages/AppLayout';
 import Login from "./pages/Login";
 import CityList from "./components/CityList";
-import { useEffect, useState } from "react";
+import CountryList from "./components/CountryList";
+import City from "./components/City";
 
 const BASE_URL = `https://worldwiseappreactrouter-bhzs--9000--96435430.local-credentialless.webcontainer.io`;
 
@@ -38,10 +42,11 @@ function App() {
         <Route path="pricing" element={<Pricing />} />
         <Route path="login" element={<Login />} />
         <Route path="app" element={<AppLayout />}>
-          <Route index element={<CityList cities={cities} isLoading={isLoading} />} />
+          <Route index element={<Navigate replace to='cities' />} />
           <Route path="cities" element={<CityList cities={cities} isLoading={isLoading} />} />
-          <Route path="countries" element={<p>List of countries here</p>} />
-          <Route path="form" element={<p>Form</p>} />
+          <Route path="cities/:id" element = {<City />} />
+          <Route path="countries" element={<CountryList cities={cities} isLoading={isLoading} />} />
+          <Route path="form" element={<Form/>} />
         </Route>
 
         {/* FOR PAGE NOT FOUND WE USE (*) */}
