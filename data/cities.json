@@ -59,6 +59,30 @@
         "lat": "28.336588273248132",
         "lng": "77.30873107910158"
       }
+    },
+    {
+      "id": "5f77",
+      "cityName": "Koratgi",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2025-10-06T10:01:49.473Z",
+      "notes": "Nice Place",
+      "position": {
+        "lat": "15.655679924804904",
+        "lng": "76.640625"
+      }
+    },
+    {
+      "id": "c0e4",
+      "cityName": "Evenkiyskiy Rayon",
+      "country": "Russian Federation (the)",
+      "emoji": "🇷🇺",
+      "date": "2025-10-06T18:17:27.569Z",
+      "notes": "to visit",
+      "position": {
+        "lat": "66.25150518439675",
+        "lng": "104.765625"
+      }
     }
   ]
 }
