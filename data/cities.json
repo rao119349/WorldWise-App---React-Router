@@ -83,6 +83,54 @@
         "lat": "66.25150518439675",
         "lng": "104.765625"
       }
+    },
+    {
+      "id": "5b4d",
+      "cityName": "Faridabad",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2025-10-07T11:24:20.021Z",
+      "notes": "go to city",
+      "position": {
+        "lat": "28.39729110912823",
+        "lng": "77.27388381958009"
+      }
+    },
+    {
+      "id": "4886",
+      "cityName": "Yushu Zangzu Zizhizhou",
+      "country": "China",
+      "emoji": "🇨🇳",
+      "date": "2025-10-07T11:25:24.576Z",
+      "notes": "chinese virus",
+      "position": {
+        "lat": "33.74412715825608",
+        "lng": "96.50390625000001"
+      }
+    },
+    {
+      "id": "5e09",
+      "cityName": "Zhaotong",
+      "country": "China",
+      "emoji": "🇨🇳",
+      "date": "2025-10-07T11:25:44.370Z",
+      "notes": "chine xi jinping",
+      "position": {
+        "lat": "27.233284486304388",
+        "lng": "103.71093750000001"
+      }
+    },
+    {
+      "id": "3308",
+      "cityName": "Korgalzhyn",
+      "country": "Kazakhstan",
+      "emoji": "🇰🇿",
+      "date": "2025-10-07T11:26:06.013Z",
+      "notes": "kazak",
+      "position": {
+        "lat": "50.518642441572396",
+        "lng": "69.78515625000001"
+      }
     }
   ]
 }
