@@ -1,0 +1,26 @@
+// Setup Multiple GITHUB accounts in VS CODE.
+1) DOWNLOAD "git-autoconfig" extension.
+
+// Type/Enter in search bar in VS Code (Ctrl + P).
+2) >SetConfig -- 
+Type "email id linked with new github account"
+Type "user name linked with this github account".
+
+now select newly config account by selecting it.
+
+Now type >Getconfig to check the account.
+
+Can also check in Settings.json to check newly added accounts. thats how it will come.
+
+"git-autoconfig.configList": [
+    {
+      "user.email": "sauravyadav1193@gmail.com",
+      "user.name": "rao119349"
+    },
+    {}
+  ],
+
+3) also need to add new github account by click on accounts icon on bottom left corner of vs code.
+then go to GitHub > Manage Trusted Extensions.
+
+then click on "Settings/Gear" icon and click on "USe a new account".
