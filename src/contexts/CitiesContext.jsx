@@ -8,6 +8,7 @@ import {
 
 const BASE_URL = `http://localhost:9000`;
 
+// 1) CREATE A CONTEXT
 const CitiesContext = createContext();
 const initialState = {
   cities: [],
@@ -134,6 +135,7 @@ function CitiesProvider({ children }) {
     }
   }
 
+  // 2) PROVIDE VALUE TO CHILD COMPONENTS
   return (
     <CitiesContext.Provider
       value={{
